@@ -1,0 +1,14 @@
+{
+  "name": "Xenon Browser",
+  "version": "1.0.0",
+  "description": "A simple privacy focused browser",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Nnisarg Gada",
+  "license": "GPL3",
+  "devDependencies": {
+    "electron": "^23.1.3"
+  }
+}

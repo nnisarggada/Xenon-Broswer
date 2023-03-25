@@ -1,0 +1,49 @@
+:root {
+  --dark: #0c0e14;
+  --navbar-height: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: var(--navbar-height);
+  background: var(--dark);
+  display: flex;
+}
+
+webview {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: calc(100vh - var(--navbar-height));
+}
+
+#back_button, #forward_button, #home_button, #go_button {
+  width: 50px;
+}
+
+#home_button {
+  width: 70px;
+}
+
+#url_bar {
+  width: inherit;
+  background: #000;
+  border: 0.5px solid rgba(255, 255, 255, 0.2);
+  margin: 7px 0 !important;
+  height: calc(var(--navbar-height) - 14px);
+}
+
+.navbar button, .navbar input {
+  border: none;
+  background: #0c0e14;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0 1rem !important;
+}
