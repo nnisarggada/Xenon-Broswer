@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Xenon Browser
+Version=1.0.0
+Type=Application
+Terminal=false
+Icon=com.nnisarggada.xenonbrowser
+Exec=xenon-browser
